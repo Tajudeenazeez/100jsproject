@@ -22,7 +22,6 @@ body {
     width: 600px;
     height: 600px;
     background-color: #bd9d74;
-    border: 2px solid red;
     position: absolute;
     top: 50%;
     left: 30%;
@@ -33,10 +32,11 @@ body {
     top: 15%;
     left: 20%;
     background: linear-gradient(to right bottom, rgba(208,176,137, .9), rgba(192,163,119, 0.9) );
-    border: 4px solid #ccc;
+    border: 4px solid #bd9d74;
     box-shadow: 2px 6px 4px rgba(222, 222, 222, .5);
     height: 400px;
     width: 400px;
+    
 }
 .frame__heading {
     font-size: 40px;
@@ -54,6 +54,7 @@ body {
     color: #fff;
     box-shadow: 4px 6px 2px rgba(100, 96, 90, 0.9);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .btn1 {
