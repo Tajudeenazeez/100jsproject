@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.hidden {
+    display: none;
+}
+
+div > h3 {
+    color: #729223;
+    font-size: 2rem;
+}
+
+

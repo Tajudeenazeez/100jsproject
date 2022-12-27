@@ -11,6 +11,12 @@
         <button id="click">Click me for project two</button>
         <p id="#hex-value"></p>
     </div>
+    <input type="text" id="input"> oninput: <span id="result"></span>
+    <script>
+    input.oninput = function() {
+    result.innerHTML = input.value;
+    };
+    </script>
 
     <script src="app.js"></script>
 </body>
